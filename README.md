@@ -9,7 +9,7 @@ Most CV scripts are sluggish. In a driving game, 200ms of lag isn't just annoyin
 
 ## The Solution: Speed Hacks
 I engineered this to run fast. Really fast.
-*   **Threaded Architecture**: Vision runs on one thread, input control runs on another at ~100Hz.
+*   **Smart Frame Skipping**: We decouple the AI from the render loop. The heavy MediaPipe inference only runs every 2nd frame, doubling our FPS without sacrificing control.
 *   **PWM Steering**: Keyboards are binary (0/1). I wrote a custom Pulse Width Modulation algorithm to fake analog steering.
 *   **Zero Fluff**: No skeletons, no fancy overlays. Just the data we need to drive.
 
