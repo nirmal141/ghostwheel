@@ -20,7 +20,17 @@ I engineered this to run fast. Really fast.
 *   PyAutoGUI (Input Injection)
 
 ## Setup
-1.  Install the dependencies:
+1.  Create and activate a virtual environment:
+    ```bash
+    # Mac/Linux
+    python3 -m venv venv
+    source venv/bin/activate
+
+    # Windows
+    python -m venv venv
+    .\venv\Scripts\activate
+    ```
+2.  Install the dependencies:
     ```bash
     pip install -r requirements.txt
     ```
