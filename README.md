@@ -34,11 +34,11 @@ I engineered this to run fast. Really fast.
     ```bash
     pip install -r requirements.txt
     ```
-2.  Run the engine:
+3.  Run the engine:
     ```bash
     python main.py
     ```
-3.  Open [Slowroads.io](https://slowroads.io), pick a car, and drive.
+4.  Open [Slowroads.io](https://slowroads.io), pick a car, and drive.
 
 ## Controls
 *   **Steer**: Hold hands up like a steering wheel. Rotate to turn.
